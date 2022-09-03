@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: #0A174E;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .navbar {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0%;
+            background-color: #ff00f2;
+            /* border-radius: 13px; */
+            transition: all 1s ease-in-out;
+            /* margin: 20px; */
+
+
+        }
+
+        /* .navbar:hover {
+            background-color: rgb(255, 255, 255);
+            border-radius: 40px;
+
+        } */
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+
+        }
+
+        .navbar a:hover,
+        .navbar a:focus {
+            color: aqua;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 3px 4px;
+            color: #0A174E;
+
+        }
+
+        .search {
+            float: right;
+            padding: 12px 12px;
+        }
+
+        .navbar input {
+            border-radius: 14px;
+            width: 150px;
+            height: max-content;
+            text-align: center;
+
+        }
+
+        footer {
+            position: sticky;
+            text-align: center;
+            color: #F5D042;
+            font-size: 20px;
+            text-decoration: none;
+            top: 100%;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: darkcyan;
+            font-weight: bolder;
+        }
+
+        .container {
+            text-align: center;
+
+            margin: 34px auto;
+            padding: 34px;
+            width: auto;
+            border: 3px solid black;
+            background-color: #F5D042;
+            font-family: 'Times New Roman', Times, serif;
+            text-rendering: geometricPrecision;
+            color: #0A174E;
+            font-size: 25px;
+        }
+
+        .btn {
+            background-color: #0A174E;
+            margin: 12px;
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #F5D042;
+        }
+
+        .btn:hover {
+            background-color: aqua;
+            color: blue;
+            border: 2px solid blue;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a> </li>
+            <li><a href="#">Disclaimer</a> </li>
+            <li><a href="#">Youtube</a> </li>
+            <div class="search">
+                <input type="search" name="" id="search" placeholder="Search Website">
+            </div>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>What is UDP?</h2>
+        <p>User Datagram Protocol (UDP) is a communications protocol that is primarily used to establish low-latency and loss-tolerating connections between applications on the internet. UDP speeds up transmissions by enabling the transfer of data before an agreement is provided by the receiving party.</p>
+        <a href="https://www.pankaj.tech/" class="btn"> Read More</a>
+        <button class="btn">Share</button>
+    </div>
+    <div class="container">
+        <h2>What is TCP?</h2>
+        <p>TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.</p>
+        <a href="https://www.pankaj.tech/" class="btn"> Read More</a>
+        <button class="btn">Share</button>
+    </div>
+    <div class="container">
+        <h2>What is WEB?</h2>
+        <p>The World Wide Web—commonly referred to as WWW, W3, or the Web—is an interconnected system of public webpages accessible through the Internet. The Web is not the same as the Internet: the Web is one of many applications built on top of the Internet.</p>
+        <a href="https://www.pankaj.tech/" class="btn"> Read More</a>
+        <button class="btn">Share</button>
+    </div>
+    <div class="container">
+        <h2>What is HTTP?</h2>
+        <p>The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, and is used to load web pages using hypertext links. HTTP is an application layer protocol designed to transfer information between networked devices and runs on top of other layers of the network protocol stack. A typical flow over HTTP involves a client machine making a request to a server, which then sends a response message.</p>
+        <a href="https://www.pankaj.tech/" class="btn"> Read More</a>
+        <button class="btn">Share</button>
+    </div>
+    <div class="container">
+        <h2>What is WEB?</h2>
+        <p>The World Wide Web—commonly referred to as WWW, W3, or the Web—is an interconnected system of public webpages accessible through the Internet. The Web is not the same as the Internet: the Web is one of many applications built on top of the Internet.</p>
+        <a href="https://www.pankaj.tech/" class="btn"> Read More</a>
+        <button class="btn">Share</button>
+    </div>
+    <div class="container">
+        <h2>What is NETWORK?</h2>
+        <p>A computer network is a group of computers linked to each other that enables the computer to communicate with another computer and share their resources, data, and applications.
+
+            A computer network can be categorized by their size. A computer network is mainly of four types:
+            
+            
+            <li>LAN(Local Area Network)</li>
+            <li>PAN(Personal Area Network)</li>
+            <li>MAN(Metropolitan Area Network)</li>
+            <li>WAN(Wide Area Network)</li>
+        
+    </p>
+        <a href="https://www.pankaj.tech/" class="btn"> Read More</a>
+        <button class="btn">Share</button>
+    </div>
+    <footer>
+        Designed By <a href="https://pankaj.tech" target="_blank">Pankaj.Tech</a>
+    </footer>
+</body>
+
+</html>
